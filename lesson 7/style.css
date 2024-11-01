@@ -1,0 +1,16 @@
+/*this is comment*/
+h3{
+    color: lightpink;
+    text-align: left;
+}
+
+#paragraph1{
+    color: dodgerblue;
+    font-size: 25px;
+}
+
+.class1{
+    color: violet;
+    text-align: center;
+    font-size: 19px;
+}
