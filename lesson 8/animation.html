@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animation</title>
+
+        <style>
+            /*the animation code*/
+            @keyframes samplekeyframes{
+                0%  {background-color: cyan;}
+                20% {background-color: darkturquoise;}
+                40% {background-color: rgb(247, 87, 167);}
+                60% {background-color: rgb(142, 111, 230);}
+                80% {background-color: rgb(61, 161, 128);}
+                100% {background-color: crimson;}
+            }
+
+            /*applying the animation to the div element*/
+            div{
+                width: 250px;
+                height: 250px;
+                background-color: rgb(184, 71, 233);
+
+                animation-name: samplekeyframes;
+                animation-duration: 5s;
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <div></div>
+        
+    </body>
+</html>
