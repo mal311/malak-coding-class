@@ -1,0 +1,35 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    color: darkblue;
+}
+
+h1{
+    color: crimson;
+}
+
+/*child selector*/
+ul > li{
+    color: blueviolet;
+}
+
+/* :hover pseudo class*/
+ul li:hover{
+    color: rgb(216, 50, 147);
+}
+
+/* :nth-child(n) pseudo class*/
+ul li:nth-child(3){
+    background-color: yellow;
+}
+
+/*sibling selector*/
+h1, p{
+    background-color: rgba(250, 139, 194, 0.705);
+}
+
+/*attribute selector*/
+a{
+    color: rgb(26, 175, 26);
+    text-decoration: none;
+}
