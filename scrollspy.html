@@ -5,7 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>scrollspy</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <!--internal css-->
+        <style>
+            body {
+                position: relative;
+            }
+
+            p {
+                font-size: 18px;
+            }
+            
+            #section1 {
+                padding-top: 50px;
+                height: 1000px;
+                background-color: burlywood;
+                color: blueviolet;
+            }
+
+            #section2 {
+                padding-top: 50px;
+                height: 500px;
+                background-color: chartreuse;
+                color: blue;
+            }
+
+            .container-fluid {
+                background-color: rgb(60, 151, 121);
+            }
+        </style>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -28,6 +57,37 @@
                 </div>
             </div>
         </nav>
+
+        <div id="section1" class="container-fluid">
+            <h1>section 1</h1>
+            <h3>codingal</h3>
+            <h5>
+                Codingal is on a mission to inspire school kids to fall in love with coding.
+
+                Coding is proven to develop creativity, logical thinking and problem solving
+                
+                skills in kids. Coding is an essential skill of the future and more than 60% of
+                
+                all jobs in STEM-related fields require knowledge of code. Kids who start
+                
+                learning to code at a young age are guaranteed to become leaders, creators
+                
+                and
+                
+                entrepreneurs of the future.
+            </h5>
+
+            <p>srcoll this section</p>
+        </div>
+
+        <div id="section2" class="container-fluid">
+            <h1>section2</h1>
+            <h3>codingal</h3>
+            <h5>Vivek Prakash and Satyam Baranwal are the founders of Codingal.
+            </h5>
+
+            <p>scroll this section</p>
+        </div>
         
     </body>
 </html>
