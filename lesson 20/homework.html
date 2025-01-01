@@ -3,22 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>homework</title>
+        <title>calculator</title>
     </head>
     <body>
       
 
         <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
         
 
-        <button onclick="myfunction2()">click me</button>
+        <button onclick="myfunction2()">calculate</button>
 
         <script>
             function myfunction2() {
                 var a = 5;
                 var b = 4
 
-                document.getElementById("p1").innerHTML = "a-b= " -a-b  ;
+                document.getElementById("p1").innerHTML = "a+b= " + (a+b);
+                document.getElementById("p2").innerHTML = "a-b= " + (a-b);
             }
 
            
