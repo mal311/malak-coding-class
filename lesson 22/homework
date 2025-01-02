@@ -1,0 +1,3 @@
+create a function name:sumall
+display the function result in the paragraph with id 
+display something using document.write Math.sin(45)
