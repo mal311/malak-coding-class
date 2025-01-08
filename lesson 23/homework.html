@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>homework</title>
+    </head>
+    <body>
+        <h1>object</h1>
+        <p id="p1"></p>
+        
+        <script>
+            var student = {
+                firstname:"malak",
+                lastname:"imaddahen",
+                age:15,
+                grade:10,
+                hobbies:"punch needle, reading, baking"
+            };
+            document.getElementById("p1").innerHTML = student["firstname"] + " " + student["lastname"] + ", " + student["age"] + " years old. grade " + student["grade"] + student["hobbies"]
+        </script>
+        <h1>array</h1>
+        <p id="p2"></p>
+
+        <script>
+            var colors = [
+                "pink",
+                "blue",
+                "purple",
+                "yellow"
+            ];
+
+            document.getElementById("p2").innerHTML = colors;
+        </script>
+
+       
+    </body>
+</html>
