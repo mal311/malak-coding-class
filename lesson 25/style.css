@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:black ;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+/*main heading font*/
+.m-heading{
+    font-family: "Roboto Slab ", serif;
+}
+
+/*navigation*/
+.navigation-link{
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid yellow;
+    transition: 0.5s ease;
+}
