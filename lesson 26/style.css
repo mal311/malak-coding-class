@@ -1,0 +1,9 @@
+.about{
+    background-color: rgb(114, 11, 11);
+    border-radius: 0.5rem;
+}
+
+.card{
+    border-bottom: 8px solid #f5ba09;
+}
+/*hexcode for colors*/
