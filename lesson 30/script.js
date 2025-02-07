@@ -43,6 +43,57 @@ for(var i=0; i<operator.length; i++) {
         }
         else if(this.id=="backspace") {
             var output = reversenumberformat(getoutput()).toString();
+
+            if(output) { //if the output has a value
+                output = output.substring(0, output.length-1);
+                displayoutput(output);
+            }
         }
-    })
+
+        else {
+            var output = getoutput();
+            var history = gethistory();
+
+            if(output=="" && history!="") {
+                if(isNaN(history[history.length-1])) {
+                    history = history.substring(0, history.length-1)
+                }
+            }
+
+            if(output != "" || history!="") {
+                if(output=="") {
+                    output = output;
+                }
+                else {
+                    output = reversenumberformat(output);
+                }
+
+                history = history + output;
+
+                if(this.id == "=") {
+                    var result = eval(history);
+                    displayoutput(result);
+                    displayhistory("");
+                }
+                else {
+                    history = history + this.id;
+                    displayhistory(history);
+                    displayoutput("");
+                }
+            }
+        }
+    });
+}
+
+var number = document.getElementsByClassName("number");
+
+for(var i=0; i<number.length; i++) {
+    number[i].addEventListener("click", function() {
+        var output = reversenumberformat(getoutput());
+
+        if(output != NaN) {
+            output = output + this.id;
+            displayoutput(output);
+        }
+    });
 }
