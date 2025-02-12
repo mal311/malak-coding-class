@@ -16,7 +16,7 @@ body{
 .navigation-link{
     border-width: 2px;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: rgb(235, 230, 240);
 }
 
 .navigation-link:hover{
