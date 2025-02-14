@@ -1,0 +1,5 @@
+ask to enter total attendance days
+  and total absent
+  ((attendance- absent)/attendance)*100
+  if % >= 75 u are eligible for exam
+  else not eligible
