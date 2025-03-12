@@ -17,12 +17,23 @@ dict3 ={"name": "Jack",
 
 #getting the data
 print(dict3["name"])
-print(dict.get("age"))
+print(dict3.get("age"))
+print()
+
+#update value
+print("updated dictionnary 3:")
+dict3["age"] = 27
+print(dict3)
 print()
 
 #remove particular element
 dict3.pop("age")
 print("updated dictionnary 3 after removing age:")
 dict3["age"] = 27
+print(dict3)
+print()
+
+#add item
+dict3["adress"] = "Temara"
 print(dict3)
 print()
