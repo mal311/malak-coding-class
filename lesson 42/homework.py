@@ -17,3 +17,13 @@ class rectangle(shape):
     
     def area(self):
         return self.width *self.length
+    
+
+    x = 4
+    y = 3
+    
+    rect = rectangle(x,y)
+    rect.printdetail()
+    print("area",rect.area)
+
+#i didn't understand it well
