@@ -48,10 +48,10 @@ def topwin():
     entry = Entry(top)
     lbl = Label(top, text="Here are number of note for each domination", bg="light yellow")
 
-    l1 = label(top, text="2000", bg="light yellow")
-    l2 = label(top, text="1000", bg="light yellow")
-    l3 = label(top, text="500", bg="light yellow")
-    l4 = label(top, text="100", bg="light yellow")
+    l1 = Label(top, text="2000", bg="light yellow")
+    l2 = Label(top, text="1000", bg="light yellow")
+    l3 = Label(top, text="500", bg="light yellow")
+    l4 = Label(top, text="100", bg="light yellow")
 
     t1 = Entry(top)
     t2 = Entry(top)
